@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Cipher-tech/static/css/main.4db62b62.css",
+    "main.js": "/Cipher-tech/static/js/main.3e595b45.js",
+    "static/js/453.ed3810f9.chunk.js": "/Cipher-tech/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Cipher-tech/index.html",
+    "main.4db62b62.css.map": "/Cipher-tech/static/css/main.4db62b62.css.map",
+    "main.3e595b45.js.map": "/Cipher-tech/static/js/main.3e595b45.js.map",
+    "453.ed3810f9.chunk.js.map": "/Cipher-tech/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4db62b62.css",
+    "static/js/main.3e595b45.js"
+  ]
+}
