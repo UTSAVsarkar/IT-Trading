@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  background-color: black;
+  color: #50c878; /* Green color for text */
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  flex: 1 0 30%; /* Default for desktop: 3 boxes per row */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+  height: 150px; /* Increased height */
+  border-radius: 10px; /* Rounded corners */
+  display: flex; /* Enable flexbox */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  font-weight: 700; /* Bold text */
+  font-size: 1.5em; /* Larger text size */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Default shadow */
+}
+
+.box:hover {
+  transform: translateY(-10px); /* Raise the box */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+@media (max-width: 600px) {
+  .box {
+    flex: 1 0 100%; /* Full width for mobile: 1 box per row */
+  }
+}

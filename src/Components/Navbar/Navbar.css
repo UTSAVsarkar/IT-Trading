@@ -1,0 +1,44 @@
+/* Navbar.css */
+.nav-link {
+  color: black !important;
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 5px; /* Adjust padding as needed */
+  transition: color 0.3s; /* Transition only the color property */
+  font-size: 18px;
+  font-weight: 700;
+  color: #1c1c1c;
+  margin-right: 20px; /* Add margin between links */
+}
+
+.nav-link:last-child {
+  margin-right: 0; /* Remove margin from the last link */
+}
+
+.nav-link.active {
+  color: green !important;
+  position: relative;
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Adjust the distance from the text as needed */
+  width: 100%;
+  height: 2px; /* Adjust the thickness of the underline as needed */
+  background-color: green; /* Color for the underline of active links */
+}
+
+/* Change text color on hover for non-active links */
+.nav-link:not(.active):hover {
+  color: green !important;
+}
+
+/* Underline for mobile devices */
+@media (max-width: 768px) {
+  .nav-link {
+    margin-right: 0; /* Remove margin on mobile devices */
+    margin-bottom: 10px; /* Add space between links on mobile devices */
+  }
+}
